@@ -4,6 +4,7 @@ html {
     }
 body {
     font-family: 'Cabin', 'sans-serif';
+    background-color: black;
     }
 .navbar-brand , footer{
     font-family:'Lobster','sans-serif' ;
