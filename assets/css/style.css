@@ -5,6 +5,7 @@ html {
 body {
     font-family: 'Cabin', 'sans-serif';
     background-color: black;
+    color: white;
     }
 .navbar-brand , footer{
     font-family:'Lobster','sans-serif' ;
@@ -21,4 +22,12 @@ body {
 .carousel-img-size {
     height: 43.75rem !important;
     text-align: center;
+}
+#contact hr {
+    width: 80%;
+}
+
+.contact-typeform {
+    width: 80%;
+    height: 31.25rem;
 }
