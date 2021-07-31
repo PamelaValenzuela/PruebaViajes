@@ -1,0 +1,23 @@
+
+html {
+    scroll-behavior : smooth;
+    }
+body {
+    font-family: 'Cabin', 'sans-serif';
+    }
+.navbar-brand , footer{
+    font-family:'Lobster','sans-serif' ;
+    font-size: 2rem;
+}
+.color_rojo{
+    color: #ff0000;
+}
+.color_negro{
+    color:"#000000";
+}
+/**Carousel**/
+
+.carousel-img-size {
+    height: 43.75rem !important;
+    text-align: center;
+}
