@@ -1,9 +1,12 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta name="autors name" content="Pamela Valenzuela Escárate">
+    <link rel="icon" href="assets/img/viajes.svg">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
@@ -21,9 +24,9 @@
 </head>
 
 <body>
-    <header>
+    <header id="Navabr-Carousel">
     <div>
-        <nav id="navbar" class="navbar navbar-expand-lg bg-transparent navbar-dark fixed-top px-4 navbar-fixed-top">
+        <nav id="navbar" class="navbar navbar-expand-md bg-transparent navbar-dark fixed-top px-4 navbar-fixed-top">
             <div class="container pl-3">
                 <div id="Viaje-Chile-Logo" class="link-hover">
                     <a class="navbar-brand ml-3" href="#">
@@ -36,11 +39,10 @@
                     </button>
                 </div>
 
-            
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active ml-3">
-                            <a class="nav-link scroll" href="#img-carousel">Inicio</a>
+                            <a class="nav-link scroll" href="#carouselheader">Inicio</a>
                         </li>
                         <li class="nav-item ml-3">
                             <a class="nav-link scroll" href="#about">Quiénes Somos</a>
@@ -56,7 +58,7 @@
             </div>
         </nav>
 
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div id="carouselheader" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="...">
@@ -79,13 +81,13 @@
       </div>
     </div>
     </header>
-    <!--About Section-->
+
     <section id="about" class="container-fluid inline-block justify-content-center d-none d-lg-block pt-2 pb-5">
         <h2 class="text-white text-center title-lg pt-4 pb-1 scroll-title">¿Quiénes somos?</h2>
         <hr class="border border-info bg-info">
         <div class="row text-white text-center pt-3">
 
-            <!--Favicon Plane-->
+
             <div class="col-12 col-lg-4 ani_box">
                 <div id="favicon-toggle1" class="py-2 justify-content-center bg-info link-hover"
                     data-toggle="tooltip" data-placement="top" title="Vuelos">
@@ -109,7 +111,7 @@
                 </p>
             </div>
 
-            <!--Favicon Mountain-->
+           
             <div class="col-12 col-lg-4 d-none d-lg-block ani_box">
                 <p id="p_text2" class="text-sm pb-1">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non ligula ipsum. Fusce sit
@@ -133,7 +135,7 @@
                 </div>
             </div>
 
-            <!--Favicon Route-->
+
             <div class="col-12 col-lg-4 ani_box">
                 <div id="favicon-toggle3" class="py-2 justify-content-center bg-info link-hover"
                     data-toggle="tooltip" data-placement="bottom" title="Ruteo">
@@ -159,9 +161,8 @@
 
         </div>
     </section>
-    <!--featured section -->
-    <section>
-<div class="row row-cols-1 row-cols-md-3">
+    <section id="featured">
+      <div class="row row-cols-1 row-cols-md-3">
         <div class="col mb-4">
           <div class="card h-100">
             <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
@@ -200,26 +201,15 @@
         </div>
       </div>
     </section>
-    <!--Contact section-->
-    <section>
-        <div>
-            <section id="contact" class="scroll-title pt-3 ani_box">
-                <h2 class="text-white text-center title-lg pt-4 mt-4">Contacto</h2>
-                <hr class="border border-info bg-info">
-
-                 <!--Typeform Contact Section-->
-        <section id="typeform" class="typeform-widget container-fluid mb-5 contact-typeform"
-        data-url="https://form.typeform.com/to/VufMBkr2?typeform-medium=embed-snippet">
-    </section>
-    <!--Typeform Script-->
-    <script>
-        (function () { var qs, js, q, s, d = document, gi = d.getElementById, ce = d.createElement, gt = d.getElementsByTagName, id = "typef_orm", b = "https://embed.typeform.com/"; if (!gi.call(d, id)) { js = ce.call(d, "script"); js.id = id; js.src = b + "embed.js"; q = gt.call(d, "script")[0]; q.parentNode.insertBefore(js, q) } })()
-    </script>
-        </div>
     
+    <section id="contact" class="scroll-title pt-3 ani_box">
+      <h2 class="text-white text-center title-lg pt-4 mt-4">Contacto</h2>
+      <hr class="border border-info bg-info">
+      <div>
+        <div class="typeform-widget" data-url="https://form.typeform.com/to/jDp81Iej?typeform-medium=embed-snippet" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+      </div>
+      </section>
 
-    </section>
-    <!--Footer Section-->
     <footer id="footer" class="bg-info">
 
         <div class="container">
@@ -230,8 +220,8 @@
                     </p>
                 </div>
                 <div class="empty_space col-lg-4"></div>
-                <!--RRSS-->
-                <div class="col-12 col-lg-4 col-sm-12 text-white text-center pt-1 pb-4">
+
+                  <div class="col-12 col-lg-4 col-sm-12 text-white text-center pt-1 pb-4">
                     <i class="fab fa-github-square fa-2x text-white px-2 link-hover"><a href="https://github.com/"
                             target="_blank"></a></i>
                     <i class="fab fa-linkedin fa-2x fa-2x text-white px-2 link-hover"><a
@@ -240,11 +230,12 @@
                             target="_blank"></a></i>
                     <i class="fab fa-facebook-square fa-2x text-white px-2 link-hover"><a
                             href="https://www.facebook.com/" target="_blank"></a></i>
+                  </div>
                 </div>
-            </div>
         </div>
+      </footer> 
+  
 
-    </footer>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
