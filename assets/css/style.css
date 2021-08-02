@@ -1,1 +1,26 @@
+html {
+    scroll-behavior : smooth;
+    }
+body{
+    background-color: black;
+    font-family: 'Cabin', sans-serif;
+    color:white;
+}
+.navbar, footer {
+        color: white;
+        font-family: 'Lobster', cursive;
+        text-decoration: none!important;
+}
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+}
+/*transicion lenta del carousel*/
+.carousel-item{
+    transition: transform 2s ease;
+    opacity: .5s ease-out;
+}
+.carousel-item img{
+    width: 100%;
+}
 
